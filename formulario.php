@@ -70,6 +70,6 @@
 
 			<input type="hidden" name="id" value="<?php echo $item['id'] ?>">
 			<input type="submit" value="Salvar" class="btn">
-			<a href="lista.php" class="btn limpar">Cancelar</a>
+			<a href="index.php?url=2" class="btn limpar">Cancelar</a>
 		</form>
 	</div>
