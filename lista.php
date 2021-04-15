@@ -75,5 +75,12 @@
 		<ul class="paginacao">
 			<?php echo paginacao("index.php?url=2$complemento", $pg, $paginas) ?>
 		</ul>
+
+		<div align="right">
+			<form action="cadastro/exporta.php" method="post">					
+				<button type="submit" name="exporta_dados" value="exporta_dados" 
+					class="btn">Exportar para o excel</button>
+			</form>
+		</div>
 	</div>
 	<?php } ?>
